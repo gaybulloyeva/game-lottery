@@ -85,7 +85,36 @@ body {
 #num4,
 #num5,
 #num6 {
-    text-align: center;
+    font-size: 28px;
+    color: azure;
+}
+
+#error {
+    margin-top: 40px;
+    color: azure;
+    font-size: 20px;
+}
+
+
+#random-num {
+    margin-top: 20px;
+    color: azure;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(240, 255, 255, 0.4);
+    transition: 0.1s;
+}
+
+
+#random-num:hover {
+    box-shadow: 0 0 10px 2px azure;
+}
+
+#random{
+    margin-top: 20px;
     font-size: 28px;
     color: azure;
 }
